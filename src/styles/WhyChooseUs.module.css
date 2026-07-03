@@ -52,6 +52,7 @@
 
 /* Large heading */
 .heading {
+  font-family: "Playfair Display", serif;
   color: #ffffff;
   font-size: 48px;
   font-weight: 800;

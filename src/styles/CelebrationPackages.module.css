@@ -21,6 +21,89 @@
     margin-bottom: 50px;
 }
 
+/* Section Header */
+.sectionHeader {
+    text-align: center;
+    margin-bottom: 56px;
+}
+
+/* Tagline */
+.tagline {
+    display: inline-block;
+    color: #FFC512;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+/* Divider */
+.divider {
+    width: 70px;
+    height: 3px;
+    margin: 0 auto 22px;
+    background: #FFC512;
+    border-radius: 999px;
+}
+
+/* Heading */
+.heading {
+    font-family: "Playfair Display", serif;
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 18px;
+}
+
+/* Description */
+.description {
+    max-width: 700px;
+    margin: 0 auto;
+    color: #9ca3af;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+    .heading {
+        font-size: 40px;
+    }
+
+    .description {
+        font-size: 16px;
+        max-width: 600px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .sectionHeader {
+        margin-bottom: 42px;
+    }
+
+    .tagline {
+        font-size: 13px;
+        letter-spacing: 3px;
+    }
+
+    .heading {
+        font-size: 32px;
+    }
+
+    .description {
+        font-size: 15px;
+        line-height: 1.7;
+        padding: 0 12px;
+    }
+
+    .divider {
+        width: 55px;
+    }
+}
+
 /* Small gold tagline */
 .tagline {
     color: #FFC512;

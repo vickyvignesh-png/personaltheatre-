@@ -6,8 +6,8 @@ import styles from "../styles/Hero.module.css";
 // Static hero content
 const tagline = "PRIVATE CINEMA EXPERIENCE";
 const title = "Luxury Private Theatre";
-const highlight = "Private Theatre";
-const subtitle = "Experiences";
+const highlight = "For Unforgettable Moments";
+const subtitle = "";
 const description = "Indulge in a luxurious private cinema where every detail is crafted for an unforgettable moment.";
 
 const transition = { duration: 0.6, ease: "easeInOut" };

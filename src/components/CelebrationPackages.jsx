@@ -24,7 +24,7 @@ const packages = [
         icon: <FaHeart />,
         title: "Proposal Setup",
         description:
-            "Make your proposal magical with premium décor, lighting and your favourite movie.",
+            "Make your proposal magical with premium decor, lighting and your favourite movie.",
         image: proposalImage,
     },
 ];
@@ -33,18 +33,18 @@ const CelebrationPackages = () => {
     return (
         <section id="celebration-packages" className="w-full bg-[#0B0B0B] py-24 px-6">
             <div className="max-w-7xl mx-auto">
-                <div className="text-center mb-14">
-                    <p className="uppercase tracking-[4px] text-[#FFC512] text-sm font-semibold">
+                <div className={styles.sectionHeader}>
+                    <p className={styles.tagline}>
                         Luxury Enhancements
                     </p>
 
                     <div className={styles.divider}></div>
 
-                    <h2 className="text-4xl md:text-5xl font-bold text-white mt-3">
+                    <h2 className={styles.heading}>
                         Elevate Your Celebration
                     </h2>
 
-                    <p className="text-gray-400 mt-4 max-w-2xl mx-auto">
+                    <p className={styles.description}>
                         Choose from our curated celebration packages to make every
                         experience unforgettable.
                     </p>
