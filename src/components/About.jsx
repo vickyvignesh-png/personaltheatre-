@@ -8,22 +8,22 @@ const features = [
   {
     icon: FaUsers,
     title: "Private Experience",
-    desc: "Enjoy complete privacy with your loved ones.",
+    desc: "",
   },
   {
     icon: FaCouch,
     title: "Luxury Seating",
-    desc: "Premium recliners for maximum comfort.",
+    desc: "",
   },
   {
     icon: FaVolumeUp,
     title: "Dolby Atmos",
-    desc: "Immersive surround sound experience.",
+    desc: "",
   },
   {
     icon: FaFilm,
     title: "4K Projection",
-    desc: "Crystal-clear cinema quality visuals.",
+    desc: "",
   },
 ];
 

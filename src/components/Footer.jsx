@@ -173,7 +173,7 @@ function Footer() {
             © 2026 The Tiny Theatre. All Rights Reserved.
           </p>
           <p className={styles.bottomText}>
-            Designed & Developed By <a href="https://www.oceansoftwares.com/" target="_blank" rel="noopener noreferrer" className={styles.developerLink}>Ocean Software</a>
+            Designed & Developed By <a href="https://www.oceansoftwares.com/" target="_blank" rel="noopener noreferrer" className={styles.developerLink}>Ocean Softwares</a>
           </p>
         </div>
       </div>

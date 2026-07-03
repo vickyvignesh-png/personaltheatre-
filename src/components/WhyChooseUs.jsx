@@ -5,10 +5,10 @@ import bgImage from "../assets/images/whychoose-bg.png";
 import styles from "../styles/WhyChooseUs.module.css";
 
 const stats = [
-  { icon: FaUsers, value: 2500, suffix: "+", label: "Happy Guests" },
-  { icon: FaBirthdayCake, value: 500, suffix: "+", label: "Birthday Events" },
-  { icon: FaHeart, value: 1000, suffix: "+", label: "Couple Celebrations" },
-  { icon: FaStar, value: 4.9, suffix: "★", label: "Google Rating" },
+  { icon: FaUsers, value: 250, suffix: "+", label: "Happy Guests" },
+  { icon: FaBirthdayCake, value: 50, suffix: "+", label: "Birthday Events" },
+  { icon: FaHeart, value: 100, suffix: "+", label: "Couple Celebrations" },
+  { icon: FaStar, value: 3.9, suffix: "★", label: "Google Rating" },
 ];
 
 function Counter({ target, suffix }) {
